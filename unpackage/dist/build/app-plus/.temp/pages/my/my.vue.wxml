@@ -1,0 +1,12 @@
+<template name="375b561e">
+  <view class="_view data-v-295e6a87 index">
+    <view class="_view data-v-295e6a87 status_bar">
+      <view class="_view data-v-295e6a87 top_view"></view>
+    </view>
+    <view class="_view data-v-295e6a87 content">
+      <view class="_view data-v-295e6a87">
+        <web-view webview-styles="{{webviewStyles}}" src="http://192.168.31.10:8080/#/user/index" bindmessage="handleProxy" data-eventid="{{'Yex-0'}}" data-comkey="{{$k}}" class="_web-view data-v-295e6a87"></web-view>
+      </view>
+    </view>
+  </view>
+</template>

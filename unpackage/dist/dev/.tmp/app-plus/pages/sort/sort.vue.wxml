@@ -1,0 +1,1 @@
+<template name="507ba8bf"><view class="_view 507ba8bf index"><view class="_view 507ba8bf status_bar"><view class="_view 507ba8bf top_view"></view></view><view class="_view 507ba8bf content"><view class="_view 507ba8bf"><web-view src="{{src}}" class="_web-view 507ba8bf"></web-view></view></view></view></template>

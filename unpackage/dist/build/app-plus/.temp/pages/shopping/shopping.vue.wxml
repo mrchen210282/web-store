@@ -1,0 +1,12 @@
+<template name="38f450f1">
+  <view class="_view data-v-0639bfc7 index">
+    <view class="_view data-v-0639bfc7 status_bar">
+      <view class="_view data-v-0639bfc7 top_view"></view>
+    </view>
+    <view class="_view data-v-0639bfc7 content">
+      <view class="_view data-v-0639bfc7">
+        <web-view webview-styles="{{webviewStyles}}" src="http://192.168.31.10:8080/#/cart" bindmessage="handleProxy" data-eventid="{{'WTt-0'}}" data-comkey="{{$k}}" class="_web-view data-v-0639bfc7"></web-view>
+      </view>
+    </view>
+  </view>
+</template>

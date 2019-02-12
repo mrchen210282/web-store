@@ -1,0 +1,275 @@
+.clearfix:before,.clearfix:after{ content:"."; display:block; height:0; clear:both; visibility:hidden;}
+.clearfix:after{clear:both;}
+.clearfix{zoom:1;}
+/* 设置内联, 减少浮动带来的bug */
+a{text-decoration: none;}
+ul {list-style:none; padding: 0; margin: 0;}
+.fn_left,.fn_right{display:inline;}
+.fn_left{float:left;}
+.fn_right{float:right;}
+.tl{text-align:left;}
+.tc{text-align:center;}
+.tr{text-align:right;}
+.bc{margin-left:auto;margin-right:auto;}
+.cb{clear:both;}
+.cl{clear:left;}
+.cr{clear:right;}
+.vm{vertical-align:center;}
+.pr{position:relative;}
+.pa{position:absolute;}
+.hidden{visibility:hidden;}
+.none{display:none;}
+
+/* 外边距 上下边距 左右居中 */
+.ma0{margin:0 auto;}
+.ma5{margin:5px auto;}
+.ma10{margin:10px auto;}
+.ma15{margin:15px auto;}
+.ma20{margin:20px auto;}
+.ma25{margin:25px auto;}
+.ma30{margin:30px auto;}
+.ma35{margin:35px auto;}
+.ma40{margin:40px auto;}
+
+/* 外边距 */
+.m5 {margin: 5px !important;}
+.m10 {margin: 10px !important;}
+.m15 {margin: 15px !important;}
+.m20 {margin: 20px !important;}
+.m25 {margin: 25px !important;}
+.m30 {margin: 30px !important;}
+.m35 {margin: 35px !important;}
+.m40 {margin: 40px !important;}
+
+/* 上外边距 */
+.mt5 {margin-top: 5px;}
+.mt10 {margin-top: 10px !important;}
+.mt15 {margin-top: 15px !important;}
+.mt20 {margin-top: 20px !important;}
+.mt25 {margin-top: 25px !important;}
+.mt30 {margin-top: 30px !important;}
+.mt35 {margin-top: 35px !important;}
+.mt40 {margin-top: 40px !important;}
+.mt50 {margin-top: 50px !important;}
+.mt60 {margin-top: 60px !important;}
+
+/* 右外边距 */
+.mr2 {margin-right:2px !important;}
+.mr5 {margin-right: 5px !important;}
+.mr10 {margin-right: 10px !important;}
+.mr15 {margin-right: 15px !important;}
+.mr20 {margin-right: 20px !important;}
+.mr25 {margin-right: 25px !important;}
+.mr30 {margin-right: 30px !important;}
+.mr35 {margin-right: 35px !important;}
+.mr40 {margin-right: 40px !important;}
+
+/* 下外边距 */
+.mb5 {margin-bottom: 5px !important;}
+.mb10 {margin-bottom: 10px !important;}
+.mb15 {margin-bottom: 15px !important;}
+.mb20 {margin-bottom: 20px !important;}
+.mb25 {margin-bottom: 25px !important;}
+.mb30 {margin-bottom: 30px !important;}
+.mb35 {margin-bottom: 35px !important;}
+.mb40 {margin-bottom: 40px !important;}
+.mb60 {margin-bottom: 60px !important;}
+/* 左外边距 */
+.ml5 {margin-left: 5px;}
+.ml10 {margin-left: 10px !important;}
+.ml15 {margin-left: 15px !important;}
+.ml20 {margin-left: 20px!important;}
+.ml25 {margin-left: 25px!important;}
+.ml30 {margin-left: 30px!important;}
+.ml35 {margin-left: 35px!important;}
+.ml40 {margin-left: 40px!important;}
+.ml50{ margin-left:50px!important;}
+.ml100{ margin-left:100px!important;}
+.ml150{ margin-left:150px!important;}
+
+/* 内边距 */
+.p1 {padding: 1px;}
+.p5 {padding: 5px;}
+.p10 {padding: 10px;}
+.p15 {padding: 15px;}
+.p20 {padding: 20px;}
+.p25 {padding: 25px;}
+.p30 {padding: 30px;}
+.p35 {padding: 35px;}
+.p40 {padding: 40px;}
+
+/* 上内边距 */
+.pt5 {padding-top: 5px;}
+.pt10 {padding-top: 10px;}
+.pt15 {padding-top: 15px;}
+.pt20 {padding-top: 20px;}
+.pt25 {padding-top: 25px;}
+.pt30 {padding-top: 30px;}
+.pt35 {padding-top: 35px;}
+.pt40 {padding-top: 40px;}
+
+/* 右内边距 */
+.pr5 {padding-right: 5px;}
+.pr10 {padding-right: 10px;}
+.pr15 {padding-right: 15px;}
+.pr20 {padding-right: 20px;}
+.pr25 {padding-right: 25px;}
+.pr30 {padding-right: 30px;}
+.pr35 {padding-right: 35px;}
+.pr40 {padding-right: 40px;}
+
+/* 下内边距 */
+.pb5 {padding-bottom: 5px;}
+.pb10 {padding-bottom: 10px;}
+.pb15 {padding-bottom: 15px;}
+.pb20 {padding-bottom: 20px;}
+.pb20 {padding-bottom: 20px;}
+.pb20 {padding-bottom: 20px;}
+.pb20 {padding-bottom: 20px;}
+.pb20 {padding-bottom: 20px;}
+/* 左内边距 */
+.pl5 {padding-left: 5px;}
+.pl10 {padding-left: 10px;}
+.pl15 {padding-left: 15px;}
+.pl20 {padding-left: 20px;}
+.pl25 {padding-left: 25px;}
+.pl30 {padding-left: 30px;}
+.pl35 {padding-left: 35px;}
+.pl40 {padding-left: 40px;}
+
+/*文字对齐方式*/
+.tl{text-align:left !important;}
+.tr{text-align:right;}
+.tc{text-align:center;}
+
+.prel{ position:relative;}
+
+.f_12{font-size:12px !important;}
+.f_14{font-size:14px !important;}
+.f_16{font-size:16px !important;}
+.f_18{font-size:18px !important;}
+.f_20{font-size:20px !important;}
+.f_22{font-size:22px;}
+.f_23{font-size:23px;}
+.f_24{font-size:24px;}
+.f_25{font-size:25px;}
+.f_26{font-size:26px;}
+.f_28{font-size:28px;}
+.f_30{font-size:30px;}
+.f_32{font-size:32px;}
+.f_34{font-size:34px;}
+.f_35{font-size:35px;}
+.f_36{font-size:36px;}
+.f_38{font-size:38px;}
+.f_40{font-size:40px;}
+.f_42{font-size:42px;}
+.f_45{font-size:45px;}
+.f_48{font-size:48px;}
+.f_50{font-size:50px;}
+.f_52{font-size:52px;}
+.f_60{font-size:60px;}
+.f_70{font-size:70px;}
+/*登录页*/
+.bei-logo {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: #FFFFFF;
+	
+}
+.login-logo{ display: block; width: 30%; height: 15%; margin: 25% auto 0;}
+.bei-logo h2{ font-size: 20px; color: #1f3f59; position: absolute; z-index: 2; top: 160px; text-align: center; width: 100%; font-family: "微软雅黑";}
+.login{ background: #FFFFFF; position: absolute; z-index: 1; width: 100%; left:0%;top:210px; padding-top: 50px;}
+.mui-input-line{ width: 80%; margin:0 10%; float: left; position: relative;}
+.mui-input-line input{ position: relative;z-index: 2; height: 39px; width: 70% !important;}
+.mui-input-line:after{
+	   content: "";
+    position: absolute;
+    top: -50%;
+    bottom: -50%;
+    left: -50%;
+    right: -50%;
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+    border-bottom: solid 1px #c6c6c8;
+    z-index: 1;
+}
+.Otherlogin{ width: 100%; position: absolute; bottom: 0; left: 0;}
+.Otherlogin-line{ width:35%;position: relative; height: 10px; float: left;}
+.Otherlogin-line:after{
+	   content: "";
+    position: absolute;
+    top: -50%;
+    bottom: -50%;
+    left: -50%;
+    right: -50%;
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+    border-bottom: solid 1px #c6c6c8;
+    z-index: 1;
+}
+.Otherlogin-title{ display: block; background: #fff; width: 30%; text-align: center; float: left;line-height: 20px; font-size: 12px;  height: 20px; margin-bottom: -10px;}
+.Otherlogin-btn{ width: 80%; float: left; margin: 30px 10% 20px;}
+.Otherlogin-btn .aa{ display: block; width: 33.33%; float: left;  text-align: center;}
+.Otherlogin-btn .aa img{width: 50%;}
+.mui-input{ border: none  !important; float: left; width: 80% !important; font-size:16px !important; color: #333; padding: 0 !important; margin-bottom: 0 !important;}
+.btn{ width: 80%; margin:0 10%; background: #e57f3e; border: none; text-align: center; height: 40px; line-height: 40px; border-radius: 5px; padding: 0; color: #FFFFFF;}
+.btn:active{background: #f59151 !important;}
+.btn2{ width: 80%; margin:0 10%; background: #E5E5E5; border: none; text-align: center; height: 40px; line-height: 40px; border-radius: 5px; padding: 0; color: #FFFFFF;}
+.link-area{ text-align: center; color: #e57f3e; padding-top: 10px;}
+.link-area .forget-pwd-btn{ display:inline-block; color: #e57f3e; font-size: 12px; padding: 0px 40px;}
+/*注册页*/
+.white{background: #FFFFFF; position: absolute; top:0; bottom: 0px; left: 0px; right: 0px; padding-top:0px; overflow: auto;}
+
+.regbtn {
+	position: absolute;
+	right: 0px;
+	bottom: 8px;
+	color: #fff;
+	background: #e57f3e;
+	font-size: 12px;
+	padding: 0 10px;
+	border-radius: 15px;
+	z-index: 3;
+}
+.btn-next{ float: left; margin-bottom: 20px;}
+.checkbox-text{ text-align: center; font-size: 12px; line-height: 12px; color: #333333; margin-top: 20px;}
+.checked{ vertical-align: middle;}
+.prompt{ font-size: 12px; color: #FF4400; line-height:35px; padding-top: 5px; margin: 0 10%;}
+   .action-row {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .action-row navigator {
+        color: #007aff;
+        padding: 0 20upx;
+    }
+
+    .oauth-row {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+
+    .oauth-image {
+        width: 100upx;
+        height: 100upx;
+        border: 1upx solid #dddddd;
+        border-radius: 100upx;
+        margin: 0 40upx;
+        background-color: #ffffff;
+    }
+
+    .oauth-image image {
+        width: 60upx;
+        height: 60upx;
+        margin: 20upx;
+    }

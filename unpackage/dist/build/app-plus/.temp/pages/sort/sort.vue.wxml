@@ -1,0 +1,12 @@
+<template name="ccefec9e">
+  <view class="_view data-v-762165f2 index">
+    <view class="_view data-v-762165f2 status_bar">
+      <view class="_view data-v-762165f2 top_view"></view>
+    </view>
+    <view class="_view data-v-762165f2 content">
+      <view class="_view data-v-762165f2">
+        <web-view webview-styles="{{webviewStyles}}" src="http://192.168.31.10:8080/#/category" bindmessage="handleProxy" data-eventid="{{'aHF-0'}}" data-comkey="{{$k}}" class="_web-view data-v-762165f2"></web-view>
+      </view>
+    </view>
+  </view>
+</template>

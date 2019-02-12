@@ -1,0 +1,44 @@
+<template name="12823271">
+  <view class="_view data-v-afbed8f2">
+    <page-head title="{{title}}" class="_page-head data-v-afbed8f2"></page-head>
+    <view class="_view data-v-afbed8f2 uni-padding-wrap">
+      <view class="_view data-v-afbed8f2 page-section swiper">
+        <view class="_view data-v-afbed8f2 page-section-spacing">
+          <swiper class="_swiper data-v-afbed8f2 swiper" indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+            <swiper-item class="_swiper-item data-v-afbed8f2">
+              <view class="_view data-v-afbed8f2 swiper-item uni-bg-red">A</view>
+            </swiper-item>
+            <swiper-item class="_swiper-item data-v-afbed8f2">
+              <view class="_view data-v-afbed8f2 swiper-item uni-bg-green">B</view>
+            </swiper-item>
+            <swiper-item class="_swiper-item data-v-afbed8f2">
+              <view class="_view data-v-afbed8f2 swiper-item uni-bg-blue">C</view>
+            </swiper-item>
+          </swiper>
+        </view>
+      </view>
+    </view>
+    <view class="_view data-v-afbed8f2 swiper-list">
+      <view class="_view data-v-afbed8f2 uni-list-cell uni-list-cell-pd">
+        <view class="_view data-v-afbed8f2 uni-list-cell-db">指示点</view>
+        <switch checked="{{indicatorDots}}" bindchange="handleProxy" data-eventid="{{'xWe-0'}}" data-comkey="{{$k}}" class="_switch data-v-afbed8f2" />
+      </view>
+      <view class="_view data-v-afbed8f2 uni-list-cell uni-list-cell-pd">
+        <view class="_view data-v-afbed8f2 uni-list-cell-db">自动播放</view>
+        <switch checked="{{autoplay}}" bindchange="handleProxy" data-eventid="{{'Kpn-1'}}" data-comkey="{{$k}}" class="_switch data-v-afbed8f2" />
+      </view>
+    </view>
+    <view class="_view data-v-afbed8f2 uni-padding-wrap">
+      <view class="_view data-v-afbed8f2 uni-common-mt">
+        <text class="_text data-v-afbed8f2">幻灯片切换时长(ms)</text>
+        <text class="_text data-v-afbed8f2 info">{{duration}}</text>
+      </view>
+      <slider bindchange="handleProxy" value="{{duration}}" min="500" max="2000" data-eventid="{{'iLH-2'}}" data-comkey="{{$k}}" class="_slider data-v-afbed8f2" />
+      <view class="_view data-v-afbed8f2 uni-common-mt">
+        <text class="_text data-v-afbed8f2">自动播放间隔时长(ms)</text>
+        <text class="_text data-v-afbed8f2 info">{{interval}}</text>
+      </view>
+      <slider bindchange="handleProxy" value="{{interval}}" min="2000" max="10000" data-eventid="{{'Hpy-3'}}" data-comkey="{{$k}}" class="_slider data-v-afbed8f2" />
+    </view>
+  </view>
+</template>

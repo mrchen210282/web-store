@@ -1,0 +1,12 @@
+<template name="34e8ab71">
+  <view class="_view data-v-022e1a47 index">
+    <view class="_view data-v-022e1a47 status_bar">
+      <view class="_view data-v-022e1a47 top_view"></view>
+    </view>
+    <view class="_view data-v-022e1a47 content">
+      <view class="_view data-v-022e1a47">
+        <web-view src="{{src}}" class="_web-view data-v-022e1a47"></web-view>
+      </view>
+    </view>
+  </view>
+</template>

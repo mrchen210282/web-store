@@ -1,0 +1,1 @@
+<template name="deaca902"><view class="_view deaca902 index"><view class="_view deaca902 status_bar"><view class="_view deaca902 top_view"></view></view><view class="_view deaca902 content"><view class="_view deaca902"><web-view src="{{src}}" class="_web-view deaca902"></web-view></view></view></view></template>
