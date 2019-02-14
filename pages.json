@@ -21,7 +21,7 @@
 		{
 			"path": "pages/buy/buy",
 			"style": {
-				"navigationBarTitleText": "去结算"				
+				"navigationBarTitleText": "去结算"
 			}
 		},
 		{
@@ -30,7 +30,7 @@
 				"navigationBarTitleText": "分类",
 				"navigationStyle": "custom"
 			}
-		}, 
+		},
 		{
 			"path": "pages/shopping/shopping",
 			"style": {
@@ -40,7 +40,7 @@
 					"titleNView": false //禁用原生导航栏
 				}
 			}
-			
+
 		}, {
 			"path": "pages/my/my",
 			"style": {
@@ -73,16 +73,22 @@
 			}
 		},
 		{
+			"path": "pages/new-page/new-page-wu",
+			"style": {
+				"navigationBarTitleText": "",
+				"app-plus": {
+					"titleNView": false //禁用原生导航栏
+				}
+			}
+		},
+		{
 			"path": "pages/new-page/new-page"
 		},
 		{
 			"path": "pages/swiper/swiper",
 			"style": {
-				
+
 			}
-		},
-		{
-			"path": "pages/new-page/new-page"
 		},
 		{
 			"path": "pages/address-list/address-list",
@@ -91,19 +97,19 @@
 			}
 		}
 	],
-// 	"condition": { //模式配置，仅开发期间生效
-// 		"current": 0, //当前激活的模式（list 的索引项）
-// 		"list": [{
-// 				"name": "swiper", //模式名称
-// 				"path": "pages/swiper/swiper", //启动页面，必选
-// 				"query": "interval=4000&autoplay=false" //启动参数，在页面的onLoad函数里面得到。
-// 			},
-// 			{
-// 				"name": "test",
-// 				"path": "pages/switch/switch"
-// 			}
-// 		]
-// 	},
+	// 	"condition": { //模式配置，仅开发期间生效
+	// 		"current": 0, //当前激活的模式（list 的索引项）
+	// 		"list": [{
+	// 				"name": "swiper", //模式名称
+	// 				"path": "pages/swiper/swiper", //启动页面，必选
+	// 				"query": "interval=4000&autoplay=false" //启动参数，在页面的onLoad函数里面得到。
+	// 			},
+	// 			{
+	// 				"name": "test",
+	// 				"path": "pages/switch/switch"
+	// 			}
+	// 		]
+	// 	},
 	"tabBar": {
 		"color": "#7A7E83",
 		"selectedColor": "#ff2600",

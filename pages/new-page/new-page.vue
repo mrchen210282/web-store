@@ -31,7 +31,7 @@
 		},
 		methods: {
 			handleMessage(evt) {
-				console.log('æ¥æ”¶åˆ°çš„æ¶ˆæ¯ï¼š' + JSON.stringify(evt.detail.data[0].action));
+				console.log('½ÓÊÕµ½µÄÏûÏ¢£º' + JSON.stringify(evt.detail.data[0].action));
 				if (evt.detail.data[0].action == 'logout') {
 					uni.removeStorage({
 						key: 'token',

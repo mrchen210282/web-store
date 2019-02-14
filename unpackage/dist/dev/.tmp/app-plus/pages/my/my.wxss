@@ -89,8 +89,8 @@
 	        align-items: center;
 }
 .user-box {
-	height: 200px;
-	background: #f37d0f url(http://192.168.31.10/1111/background.png) repeat top center;
+	height: 190px;
+	background: #f37d0f url(http://192.168.31.43:8899/qrcode/background.png) repeat top center;
 	background-size: 100%;
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;

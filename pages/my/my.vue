@@ -2,14 +2,14 @@
 	<view class="">
 		<view class="user-box public-padding">
 			<view class="login" v-if="isLogin">
-				<view class="face-book"><img src="http://192.168.31.10/1111/touxiang.png" alt=""></view>
+				<view class="face-book"><img src="http://192.168.31.43:8899/qrcode/touxiang.png" alt=""></view>
 				<view class="logintext">
 					<h2>{{username}}</h2>
 					<p class="fl">1954115872</p>
 				</view>
 			</view>
 			<view class="login" v-if="!isLogin">
-				<view class="face-book"><img src="http://192.168.31.10/1111/weidenglu.png" alt=""></view>
+				<view class="face-book"><img src="http://192.168.31.43:8899/qrcode/weidenglu.png" alt=""></view>
 				<view class="logintext">
 					<p class="fl" @click="mine"> 登录 / 注册 </p>
 				</view>
@@ -55,8 +55,8 @@
 	export default {
 		data() {
 			return {
-				src: '',
-				username: 'wzl',
+				src: '',			
+				username: 'wzl',				
 				isLogin: false
 			};
 		},
@@ -79,14 +79,14 @@
 				var self = this;
 				uni.getStorage({
 					key: 'token',
-					success: function(res) {
-						uni.request({
-							url: helper.loginUrl + "/api/auth/verify?token=" + res.data,
-							method: 'GET',
-							success: (res) => {
-								console.log(res.data);
-								console.log(res.data.userInfo.username);
-								self.username = res.data.userInfo.username;
+					success: function(res) {						
+						uni.request({					
+						    url: helper.loginUrl+"/api/auth/verify?token=" + res.data,
+							method:'GET',				    			    
+						    success: (res) => {		
+								 console.log(res.data);
+								  console.log(res.data.userInfo.username);
+						          self.username = res.data.userInfo.username;
 								self.isLogin = res.data !== null;
 								uni.setStorage({
 									key: 'token',
@@ -109,7 +109,7 @@
 					},
 					fail: function() {}
 				});
-
+				
 			},
 			newPage(param) {
 				console.log('return success!!')
@@ -153,7 +153,7 @@
 						break;
 					case 'service':
 						uni.navigateTo({
-							url: '../new-page/new-page?src=' + helper.websiteUrl + '/#/user/service&title=服务中心'
+							url: '../new-page/new-page?src=' + helper.websiteUrl + '/#/service&title=服务中心'
 						});
 						break;
 					case 'info':
@@ -199,8 +199,8 @@
 	}
 
 	.user-box {
-		height: 200px;
-		background: #f37d0f url(http://192.168.31.10/1111/background.png) repeat top center;
+		height: 190px;
+		background: #f37d0f url(http://192.168.31.43:8899/qrcode/background.png) repeat top center;
 		background-size: 100%;
 		-webkit-box-sizing: border-box;
 		box-sizing: border-box;

@@ -9,10 +9,9 @@
     "pages/login/login",
     "pages/register/register",
     "pages/retrieve/retrieve",
+    "pages/new-page/new-page-wu",
     "pages/new-page/new-page",
-    "pages/swiper/swiper",
-    "pages/new-page/new-page",
-    "pages/address-list/address-list"
+    "pages/swiper/swiper"
   ],
   "subPackages": [],
   "window": {
@@ -21,7 +20,6 @@
     "navigationBarBackgroundColor": "#F8F8F8",
     "backgroundColor": "#F8F8F8"
   },
-  "usingComponents": {},
   "tabBar": {
     "color": "#7A7E83",
     "selectedColor": "#ff2600",
